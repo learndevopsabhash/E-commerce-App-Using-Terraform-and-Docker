@@ -1,3 +1,8 @@
+# For Deployment evedance
+
+https://github.com/learndevopsabhash/E-commerce-App-Using-Terraform-and-Docker/blob/main/README_Deployment.md
+
+
 # E-Commerce Microservices Application
 
 A full-stack MERN e-commerce application built with microservices architecture, featuring 4 separate Node.js backend services and a React frontend.
