@@ -227,3 +227,14 @@ __marimo__/
 *.tfvars
 *.tfvars.json
 crash.log
+jwt_secret.txt
+terraform/tfplan
+
+# Terraform local files
+*.tfplan
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
