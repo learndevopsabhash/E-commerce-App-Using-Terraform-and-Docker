@@ -445,5 +445,80 @@ ls -ld terraform
 ### Step 2 Create provider.tf
 ```
 nano terraform/provider.tf
-``
+```
 [provider.tf](terraform/provider.tf)
+
+
+### Step 3 Create variables.tf
+```
+nano terraform/variables.tf
+```
+[variables.tf](terraform/variables.tf)
+
+
+### Step 4 Create main.tf
+```
+nano terraform/main.tf
+```
+[main.tf](terraform/main.tf)
+
+### Step 5 Create iam.tf
+```
+nano terraform/iam.tf
+```
+[iam.tf](terraform/iam.tf)
+
+### Step 6 Create outputs.tf
+```
+nano terraform/outputs.tf
+```
+[outputs.tf](terraform/outputs.tf)
+
+
+### Step 7 Create user_data.sh for Install Docker and run Docker images
+```
+nano terraform/user_data.sh
+```
+[user_data.sh](terraform/user_data.sh)
+
+
+### Check Format and validate the Terraform files
+```
+terraform fmt
+terraform validate
+```
+<img width="1895" height="202" alt="image" src="https://github.com/user-attachments/assets/edb8ae72-615f-4700-8fcb-8d9d0679338b" />
+
+
+### Review the Terraform deployment plan
+```
+terraform plan -out=tfplan
+```
+
+<img width="1892" height="295" alt="image" src="https://github.com/user-attachments/assets/9117600c-4c74-4c55-b73d-6dd0ff711ee6" />
+
+
+### Terraform deployment apply
+
+```
+terraform apply tfplan
+```
+<img width="1896" height="730" alt="image" src="https://github.com/user-attachments/assets/0759d328-e905-46b0-8560-5130edb96a98" />
+
+
+
+### Veryfi Terraform deployment by open IP/DNS in browser
+
+<img width="1915" height="962" alt="image" src="https://github.com/user-attachments/assets/c8161cf1-3b4a-4b12-b8b8-785603fa1163" />
+<img width="1915" height="966" alt="image" src="https://github.com/user-attachments/assets/38e9501a-e0d2-4444-827a-214f195681b8" />
+<img width="1917" height="940" alt="image" src="https://github.com/user-attachments/assets/686b0b35-bdeb-4533-bfcb-dd1fc482beee" />
+<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/c5bdf956-7279-4cd1-80ac-5c2276d2b788" />
+<img width="1915" height="966" alt="image" src="https://github.com/user-attachments/assets/209cda7e-6010-4f22-8127-d2a5ec4a41e5" />
+<img width="1916" height="807" alt="image" src="https://github.com/user-attachments/assets/151c5a59-ad94-4440-a71e-7c420fe6a25e" />
+<img width="1913" height="973" alt="image" src="https://github.com/user-attachments/assets/dc6b8075-6d07-42df-9071-c1cedf062379" />
+
+### Check Data Base
+
+<img width="1916" height="968" alt="image" src="https://github.com/user-attachments/assets/cfc068cb-f8db-47b9-885d-c215ffea7c22" />
+
+
